@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="porma-avatar-title">
+  <title id="porma-avatar-title">Porma Software avatar</title>
+  <rect width="512" height="512" rx="112" fill="#0f172a"/>
+  <!-- Mark at 2x; implied circle d=400 stays inside a circular avatar crop. -->
+  <g transform="scale(2)" fill="none" stroke="#ffffff" stroke-linecap="round">
+    <path stroke-width="8"  d="M47 76.4 C78.1 56.3 92.9 58.8 128 84 C165.3 110.8 179.7 111.9 215 87.5"/>
+    <path stroke-width="16" d="M36.4 119.7 C75.1 92 89.1 92.1 128 120 C166.9 147.9 180.9 148 219.7 120.2"/>
+    <path stroke-width="24" d="M45.1 157.7 C77.5 136.2 92.2 138.3 128 164 C160.3 187.2 175.4 191.2 201.8 176"/>
+  </g>
+</svg>

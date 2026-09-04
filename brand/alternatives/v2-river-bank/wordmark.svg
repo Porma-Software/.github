@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" width="640" height="160">
+  <title>Porma Software</title>
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <!-- water: the mark's S-curve (scaled 0.75) that keeps flowing as a calm wave under the baseline of "Porma" -->
+    <path d="M93 28H117C138.54 28 156 45.46 156 67C156 88.54 173.46 106 195 106H219C234.5 106 234.5 100 250 100C280 100 280 112 310 112C340 112 340 100 370 100C400 100 400 112 430 112C460 112 460 100 490 100C520 100 520 112 550 112" stroke-width="9"/>
+    <!-- bank: thicker offset line, ends where the wordmark begins -->
+    <path d="M93 50.5H117C126.11 50.5 133.5 57.89 133.5 67C133.5 100.97 161.03 128.5 195 128.5H219" stroke-width="16.5"/>
+  </g>
+  <g fill="currentColor" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="250" y="88" font-size="96" font-weight="700" letter-spacing="-1.5" textLength="300" lengthAdjust="spacing">Porma</text>
+    <text x="256" y="141" font-size="20" font-weight="500" letter-spacing="7" fill-opacity="0.7">SOFTWARE</text>
+  </g>
+</svg>

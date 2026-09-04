@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <title>Porma Software mark</title>
+  <!-- water: thin S-curve, two tangent-continuous quarter arcs (R=52) as cubics -->
+  <path d="M44 58H76C104.72 58 128 81.28 128 110C128 138.72 151.28 162 180 162H212" stroke-width="12"/>
+  <!-- bank: same curve offset 30 units downstream side (R=22 / R=82), thicker -->
+  <path d="M44 88H76C88.15 88 98 97.85 98 110C98 155.29 134.71 192 180 192H212" stroke-width="22"/>
+</svg>

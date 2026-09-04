@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="t">
+  <title id="t">Porma Software avatar</title>
+  <rect width="512" height="512" rx="112" fill="#0f172a"/>
+  <g transform="translate(70.4 70.4) scale(1.45)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="14" d="M214 46 C210 82 178 104 145 122"/>
+    <path stroke-width="14" d="M40 124 C40 160 70 184 112 204"/>
+    <path stroke-width="26" d="M120 40 C176 72 176 100 128 128 C80 156 80 184 136 216"/>
+  </g>
+</svg>
