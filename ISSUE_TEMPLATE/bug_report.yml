@@ -1,0 +1,67 @@
+name: Bug report
+description: Something does not work as documented
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      placeholder: v1.2.0 or commit sha
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      render: shell
+  - type: dropdown
+    id: prioridad
+    attributes:
+      label: Prioridad
+      description: P0 blocks everything · P1 this week · P2 next two weeks · P3 this month · P4 when there is room · P5 someday.
+      options:
+        - "P0 · Crítica"
+        - "P1 · Urgente"
+        - "P2 · Alta"
+        - "P3 · Media"
+        - "P4 · Baja"
+        - "P5 · Algún día"
+      default: 2
+    validations:
+      required: true
+  - type: dropdown
+    id: complejidad
+    attributes:
+      label: Complejidad
+      description: C1 under an hour · C2 half a day · C3 one to two days · C4 three to five days · C5 one to two weeks · C6 more than two weeks.
+      options:
+        - "C1 · Trivial"
+        - "C2 · Pequeña"
+        - "C3 · Media"
+        - "C4 · Grande"
+        - "C5 · Muy grande"
+        - "C6 · Épica"
+      default: 1
+    validations:
+      required: true
+  - type: input
+    id: fecha_limite
+    attributes:
+      label: Fecha límite
+      description: YYYY-MM-DD. Leave empty to derive it from the priority.
+      placeholder: "2026-12-31"

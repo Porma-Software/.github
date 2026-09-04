@@ -1,0 +1,63 @@
+name: Feature request
+description: Propose a change or a new capability
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is hard or impossible today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What you would like to happen. Alternatives you considered.
+    validations:
+      required: true
+  - type: dropdown
+    id: reusable
+    attributes:
+      label: Reusable beyond this repo?
+      options:
+        - "Yes, belongs in a template or the toolkit"
+        - "No, specific to this repo"
+        - "Not sure"
+  - type: dropdown
+    id: prioridad
+    attributes:
+      label: Prioridad
+      description: P0 blocks everything · P1 this week · P2 next two weeks · P3 this month · P4 when there is room · P5 someday.
+      options:
+        - "P0 · Crítica"
+        - "P1 · Urgente"
+        - "P2 · Alta"
+        - "P3 · Media"
+        - "P4 · Baja"
+        - "P5 · Algún día"
+      default: 3
+    validations:
+      required: true
+  - type: dropdown
+    id: complejidad
+    attributes:
+      label: Complejidad
+      description: C1 under an hour · C2 half a day · C3 one to two days · C4 three to five days · C5 one to two weeks · C6 more than two weeks.
+      options:
+        - "C1 · Trivial"
+        - "C2 · Pequeña"
+        - "C3 · Media"
+        - "C4 · Grande"
+        - "C5 · Muy grande"
+        - "C6 · Épica"
+      default: 2
+    validations:
+      required: true
+  - type: input
+    id: fecha_limite
+    attributes:
+      label: Fecha límite
+      description: YYYY-MM-DD. Leave empty to derive it from the priority.
+      placeholder: "2026-12-31"
