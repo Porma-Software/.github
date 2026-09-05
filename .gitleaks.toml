@@ -13,11 +13,15 @@ useDefault = true
 
 [allowlist]
 description = "Porma Software global allowlist"
-# Paths whose content is hashes, fixtures or documentation, never live credentials.
+# Paths whose content is hashes or config, never live credentials. Lockfiles are deliberately
+# NOT here: detect-secrets and the local hooks already exclude them (they are generated,
+# huge and slow to scan), so this is the only layer left that reads them, and a credential
+# embedded in one (a token in an index URL, an _authToken, a resolved URL with an embedded
+# key) must still be caught. Minified files are still scanned by gitleaks too — it does not
+# skip them the way detect-secrets does.
 paths = [
   '''(^|/)\.secrets\.baseline$''',
   '''(^|/)\.pre-commit-config\.yaml$''',
-  '''(^|/)(uv\.lock|package-lock\.json|yarn\.lock|pnpm-lock\.yaml|poetry\.lock)$''',
 ]
 # No value allowlist: gitleaks v8.30.1 already ignores the published vendor examples used
 # in this toolkit's tests (verified: the AWS documentation key produces "no leaks found"),
