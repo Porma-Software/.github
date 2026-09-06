@@ -19,4 +19,7 @@ Thanks for taking the time to contribute to a Porma Software repository.
 
 ## Licensing
 
-Unless a repository states otherwise, contributions are accepted under the license of that repository (MIT for public templates and portfolio projects).
+Every Porma Software repository is proprietary (see its `LICENSE`): all rights reserved, no
+public contributions accepted without a prior written agreement with the copyright holder.
+The only planned exception, not in effect today, is a possible public portfolio repository,
+which would carry the MIT license if it is ever published.
