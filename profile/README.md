@@ -6,4 +6,4 @@ Porma Software is the freelance brand of a senior backend architect, named after
 - **Custom MCP servers** — Model Context Protocol servers that expose your internal systems to Claude and other AI agents as typed, permissioned tools, with tests and deployment included.
 - **Claude setup for teams** — tooling, skills and onboarding so a development team gets consistent, reviewable results from Claude from day one.
 
-Contact: _coming soon_
+Contact: hello@pormasoftware.com
